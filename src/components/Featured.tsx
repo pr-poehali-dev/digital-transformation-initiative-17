@@ -1,8 +1,8 @@
 export default function Featured() {
   const advantages = [
-    { num: "01", title: "Скачай приложение", desc: "Переходи по ссылке и устанавливай за 30 секунд" },
-    { num: "02", title: "Кнопка активируется", desc: "После установки кнопка разблокируется автоматически" },
-    { num: "03", title: "Кликай и зарабатывай", desc: "Каждый клик — реальные деньги на твой счёт" },
+    { num: "01", title: "Скачай VPN", desc: "Переходи по ссылке и устанавливай приложение за 30 секунд" },
+    { num: "02", title: "Подключись", desc: "Включи VPN — твой трафик начинает работать на тебя" },
+    { num: "03", title: "Получай деньги", desc: "Каждое подключение приносит реальные выплаты на счёт" },
   ];
 
   return (
@@ -14,7 +14,7 @@ export default function Featured() {
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <img
           src="https://cdn.poehali.dev/projects/a4028629-4e20-4a16-9a19-6da80fd3ce58/files/44668b00-89fb-4a36-881a-233f2e747794.jpg"
-          alt="Hand clicking golden button with money"
+          alt="VPN connection visualization"
           className="w-full h-full object-cover"
         />
       </div>
