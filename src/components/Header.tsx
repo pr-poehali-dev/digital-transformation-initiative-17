@@ -17,6 +17,12 @@ export default function Header({ className }: HeaderProps) {
             Как это работает
           </a>
           <a
+            href="#referral"
+            className="text-[#C9A84C] hover:text-white transition-colors duration-300 uppercase text-sm tracking-wide"
+          >
+            Рефералы
+          </a>
+          <a
             href="#download"
             className="text-[#C9A84C] hover:text-white transition-colors duration-300 uppercase text-sm tracking-wide"
           >
