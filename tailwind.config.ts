@@ -20,6 +20,7 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Montserrat', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+				heading: ['Oswald', 'Montserrat', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
